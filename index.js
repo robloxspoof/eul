@@ -5,7 +5,7 @@ var app = express();
 // Define the port to run on
 app.set('port', (process.env.PORT || 5000));
 
-app.use('/', express.static(__dirname + '/src'));
+app.use('/', express.static(__dirname + '/test'));
 
 
 // Listen for set port
